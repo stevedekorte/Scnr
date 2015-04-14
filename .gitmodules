@@ -1,0 +1,10 @@
+[submodule "NavKit"]
+	path = submodules/NavKit
+	url = https://github.com/stevedekorte/NavKit.git
+[submodule "NavNodeKit"]
+	path = submodules/NavNodeKit
+	url = https://github.com/stevedekorte/NavNodeKit.git
+[submodule "FoundationCategoriesKit"]
+	path = submodules/FoundationCategoriesKit
+	url = https://github.com/stevedekorte/FoundationCategoriesKit.git
+
