@@ -35,7 +35,7 @@
     [alert addButtonWithTitle:@"OK"];
     
     [alert setMessageText:@"Tips"];
-    [alert setInformativeText:@"\nClick search icon & enter artist to browse similar.\n\nHit 'x' to dislike, 'c'  to like track.\n\nHit cmd 'x' to dislike all tracks by artist.\n\nDouble click track to purchase."];
+    [alert setInformativeText:@"\nClick search icon & enter artist to browse similar.\n\nHit 'x' to dislike, 'c'  to like track.\n\nHit shift 'x' to dislike all tracks by artist.\n\nDouble click track to purchase."];
     [alert setAlertStyle:NSWarningAlertStyle];
     
     [alert beginSheetModalForWindow:self.navWindow
