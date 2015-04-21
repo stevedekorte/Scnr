@@ -200,7 +200,7 @@
     
     NSString *urlString = [NSString stringWithFormat:@"https://itunes.apple.com/lookup?id=%@&entity=song", self.artistId];
     
-    NSLog(@"trackSearchURL %@", urlString);
+    //NSLog(@"trackSearchURL %@", urlString);
     
     return [NSURL URLWithString:urlString];
 }

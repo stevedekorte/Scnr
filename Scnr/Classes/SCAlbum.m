@@ -96,7 +96,7 @@
     
     NSString *urlString = [NSString stringWithFormat:@"https://itunes.apple.com/us/album/id%@", self.collectionId];
     
-    NSLog(@"similarSearchURL %@", urlString);
+    //NSLog(@"similarSearchURL %@", urlString);
     
     NSURL *url = [NSURL URLWithString:urlString];
     return url;
