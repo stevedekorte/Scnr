@@ -225,7 +225,7 @@
         {
             [self prepareToPlay];
             
-            NSArray *tracks = self.track.artist.tracks.children;
+            //NSArray *tracks = self.track.artist.tracks.children;
             
             /*
             NSInteger index = [tracks indexOfObject:self.track];
