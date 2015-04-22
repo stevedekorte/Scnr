@@ -39,6 +39,7 @@ static SCTunesCache *sharedTunesCache = nil;
     [self.fileCache setName:@"urlCache"];
     
     self.trackCache = [[FileCache alloc] init];
+    self.fileCache.ttlSeconds = 0; // never expire
     [self.fileCache setName:@"trackCache"];
     
     return self;

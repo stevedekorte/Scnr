@@ -118,7 +118,7 @@
     NSString *s = [htmlString after:@"Listeners Also Bought"];
     s = [s after:@"TrackList"];
 
-    NSMutableArray *artistIds = [NSMutableArray array];
+    //NSMutableArray *artistIds = [NSMutableArray array];
     
     do
     {

@@ -46,6 +46,7 @@
     [self addSubview:self.innerView];
     [_innerView setAutoresizesSubviews:NO];
     
+    /*
     self.progress = [[NSProgressIndicator alloc] initWithFrame:NSMakeRect(0, 0, 32, 128)];
     [self.progress setIndeterminate:YES];
     //[self.progress setStyle:NSProgressIndicatorSpinningStyle];
@@ -54,6 +55,7 @@
     [self.progress setDisplayedWhenStopped:NO];
     //[self.progress setControlTint:NSGraphiteControlTint];
     [self.innerView addSubview:self.progress];
+    */
     
     /*
     self.artistField   = [[NSTextView alloc] initWithFrame:NSMakeRect(0, 0, self.width/2, 24)];
@@ -128,8 +130,10 @@
     //[self.innerView centerSubviewsX];
     [self.artistField centerXInSuperview];
     */
-    [self.progress centerXInSuperview];
-    [self.progress centerYInSuperview];
+    
+    //[self.progress centerXInSuperview];
+    //[self.progress centerYInSuperview];
+    
     /*
     if (self.player)
     {

@@ -24,10 +24,10 @@
 @property (strong, nonatomic) NSTextView *trackField;
 */
 
-@property (strong, nonatomic) NSSound *sound;
+//@property (strong, nonatomic) NSSound *sound;
 @property (assign, nonatomic) BOOL shouldPlayOnDownload; // in case download finishes after stopping
 
-@property (strong, nonatomic) NSProgressIndicator *progress;
+//@property (strong, nonatomic) NSProgressIndicator *progress;
 @property (strong, nonatomic) AVPlayer *player;
 
 - (SCTrack *)track;
